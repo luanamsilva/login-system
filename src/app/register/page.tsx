@@ -1,9 +1,12 @@
 import LoginCard from '../../components/LoginCard'
-export default function RegisterPAge() {
+
+export default function RegisterPage() {
   return (
     <main>
-<h1>Página de Registro</h1>
-<LoginCard/>
+
+<LoginCard  title='Faça seu cadastro para ter acesso' label='Nome do usuário:'>
+  
+</LoginCard>
     </main>
   )
 }
