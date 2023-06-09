@@ -1,9 +1,9 @@
-export default function Button() {
+export default function Button({children, ...props}) {
   return (
     <main>
       <div>
      
-<button>Enviar</button>
+<button {...props}>{children}</button>
   </div>
     </main>
   )
