@@ -8,10 +8,10 @@ export default function LoginPage() {
     <main>
 
 <LoginCard title='Entre com seu usuário e sua senha' label='Login:'>
-<Input type="email" placeholder="Digite seu e-mail"/>
-<Input type="passord" placeholder="Digite sua senha"/>
+<Input className="pl-2 rounded-md" type="email" placeholder="Digite seu e-mail"/>
+<Input  className="pl-2 rounded-md" type="passord" placeholder="Digite sua senha"/>
 <Button>Enviar</Button>
-<Link href='/register'>Ainda não possui cadastro?</Link>
+<Link className="text-gray-300" href='/register'>Ainda não possui cadastro?</Link>
   </LoginCard>
     </main>
   )

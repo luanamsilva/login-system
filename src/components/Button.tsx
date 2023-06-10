@@ -1,9 +1,9 @@
 export default function Button({children, ...props}) {
   return (
     <main>
-      <div className="bg-white border-gray-300 rounded-lg mt-3 p-2 ">
+      <div >
      
-<button {...props}>{children}</button>
+<button  className="bg-orange-400 hover:bg-orange-500 text-gray-600 rounded-lg px-4" {...props}>{children}</button>
   </div>
     </main>
   )

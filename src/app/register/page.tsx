@@ -10,10 +10,10 @@ export default function RegisterPage() {
 <LoginCard  title='Faça seu cadastro para ter acesso' label='Nome do usuário:'>
 
 <Input type="text" placeholder="Digite seu nome"/>
-<Input type="email" placeholder="Digite seu e-mail"/>
-<Input type="passord" placeholder="Digites sua senha"/>
+<Input className="pl-2 rounded-md"  type="email" placeholder="Digite seu e-mail"/>
+<Input  className="pl-2 rounded-md" type="passord" placeholder="Digites sua senha"/>
 <Button>Cadastrar</Button>
-<Link href='/login'>Já possui uma conta?</Link>
+<Link className="text-gray-300" href='/login'>Clique aqui se já possui uma conta</Link>
 </LoginCard>
     </main>
   )
